@@ -1,9 +1,123 @@
-﻿<html>
-<head><title>test</title></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        @media (min-width: 789px) {
+            #slider{
+                width: 250px;
+            }
+            .pager_main{
+                margin-left: 250px;
+            }
+        }
+    </style>
+</head>
 <body>
-<h1>王一丹是美女 低调</h1>
-<h2>许欣欣是 帅哥</h2>
+<nav class="navbar navbar-default" style="margin: 0;">
+    <div class="navbar-header">
+        <a href="#" class="navbar-brand">网站后台</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right " style="margin-right: 20px;">
+        <li><a href="#"><span class="badge">20</span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-home">&nbsp;注销</span></a></li>
+    </ul>
+</nav>
+<!--navbar-default-->
+<!--navbar-collapse-->
+<div class="navbar-default navbar-collapse" id="slider"style="margin: 0;float: left">
+    <ul class="nav">
+        <li>
+            <div class="input-group">
+                <input type="text" class="form-control">
+                <span class="input-group-btn"> <button type="button" class="btn btn-default">查询</button></span>
+            </div>
 
+        </li>
 
+        <li>
+            <a href="#sub1" data-toggle="collapse">系统功能<span class="caret pull-right"></span></a>
+            <ul class="collapse nav" id="sub1">
+                <li><a>增加</a></li>
+                <li><a>删除</a></li>
+                <li><a>修改</a></li>
+                <li><a>退出</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#sub2" data-toggle="collapse">会员管理<span class="caret pull-right"></span></a>
+            <ul class="collapse nav" id="sub2">
+                <li><a>增加</a></li>
+                <li><a>删除</a></li>
+                <li><a>修改</a></li>
+                <li><a>退出</a></li>
+            </ul>
+        </li>
+        <li>    <a href="#sub3" data-toggle="collapse">数量查询<span class="caret pull-right"></span></a>
+            <ul class="collapse nav" id="sub3">
+                <li><a>增加</a></li>
+                <li><a>删除</a></li>
+                <li><a>修改</a></li>
+                <li><a>退出</a></li>
+            </ul></li>
+        <li>
+            <a href="#sub4" data-toggle="collapse">货物管理<span class="caret pull-right"></span></a>
+            <ul class="collapse nav" id="sub4">
+                <li><a>增加</a></li>
+                <li><a>删除</a></li>
+                <li><a>修改</a></li>
+                <li><a>退出</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="pager_main" >
+    <div class="panel panel-default">
+        <div class="panel-heading">最新订单</div>
+        <!--<div class="panel-body">-->
+            <div class="row col-lg-5">
+                <table class="table table-bordered table-striped table-hover">
+                    <thead>
+                    <tr><td>编号</td><td>商品名</td><td>单价</td></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>1</td><td>鞋</td><td>200元</td></tr>
+                    <tr><td>2</td><td>帽子</td><td>210元</td></tr>
+                    <tr><td>3</td><td>袜子</td><td>35元</td></tr>
+                    <tr><td>4</td><td>围脖</td><td>560元</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row col-lg-5 col-lg-offset-2">
+                <table class="table table-bordered table-striped table-hover">
+                    <thead>
+                    <tr><td>编号</td><td>商品名</td><td>单价</td></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>1</td><td>鞋</td><td>200元</td></tr>
+                    <tr><td>2</td><td>帽子</td><td>210元</td></tr>
+                    <tr><td>3</td><td>袜子</td><td>35元</td></tr>
+                    <tr><td>4</td><td>围脖</td><td>560元</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        <!--</div>-->
+    </div>
+
+</div>
+<ul class="pagination pagination-lg pull-right">
+    <li ><a href="#">&laquo;</a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+</ul>
 </body>
 </html>
