@@ -1,0 +1,68 @@
+/*lm*/
+table,thead,tbody,tr,td,th{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.lm-head{
+    height: 32px;
+    border-bottom: 1px solid #edfbff;
+}
+.lm-head h5{
+    color: #0f92d6;
+}
+.mennu{
+    height: 30px;
+}
+.mennu .btn-default{
+    display: block;
+    background-color: #eeeeee;
+    border: 0;
+    height: 30px;
+    float: left;
+    margin-left: 2px;
+}
+.tab{
+    width: 100%;
+}
+.tab tbody tr td{
+
+    height: 36px;
+    padding: 0;
+}
+.tab tbody tr td ul li{
+    display: inline;
+}
+th{
+    height: 36px;
+}
+.tab thead{
+    background-color: #eeeeee;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border-bottom: 1px solid #eeeeee;
+}
+.web-main{
+    width: 100%;
+}
+.web-main li{
+    display: inline-block;
+}
+.web-main .li-title{
+    width:152px; ;
+    height: 24px;
+    text-align: left;
+}
+.web-main .li-detail{
+width: 400px;
+}
+.web-main .li-detail input{
+  width:400px;
+    height: 25px;
+}
