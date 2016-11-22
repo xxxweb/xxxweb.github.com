@@ -1,1 +1,143 @@
-a,body,div,img,li,ul{padding:0;margin:0}h1,h2{font-weight:700}.navbar-default{box-shadow:0 2px 1px #666}.navbar-default .navbar-brand{font-weight:700;height:70px;line-height:35px;font-size:26px;color:#2aabd2}.navbar-default .navbar-nav li a{font-size:1pc;font-weight:700;height:70px;line-height:35px}#bigimg{text-align:center;color:#fff;background:url(../images/home-bg.jpg);margin-top:70px}.lvjing{padding:70px 0;width:100%;height:100%;background-color:hsla(0,0%,4%,.7)}#bigimg p{font-size:15px;line-height:30px}#bigimg img{margin-top:30px;margin-bottom:30px}#bbs{margin-top:20px;padding:5pc}#bbs .row div{text-align:center}#bbs .row div a{color:#0b0809;text-decoration:none}#bbs .row div a img{margin-top:10px}#bbs .row div:hover{background-color:rgba(60,50,65,.1)}#bootstrap,#html5{margin-top:20px;padding-top:60px}#html5{background-color:#f8f8f8}#bootstrap p,#html5 p{margin-top:20px;line-height:30px}#bootstrap p span,#html5 p span{text-align:center;line-height:30px;border-radius:50%;margin-right:10px;background-color:#2aabd2;width:30px;height:30px}#course{padding-bottom:50px;background-color:#f8f8f8;margin-top:40px;padding-top:5pc;text-align:center}.course{background-color:#fff;margin:20px 0;padding-bottom:30px}.course a{margin-top:24px}#app{padding:5pc 0}#app .container .row .col-md-6 p{line-height:30px}#app .container .row .col-md-6 button{margin-top:40px;margin-bottom:20px}#contact{color:#fff;background:url(../images/contact-bg.png)}#contact h1 span{margin-right:20px}#contact .row p{line-height:26px;margin-bottom:20px}#contact input{margin-top:9pt;width:100%;height:50px}#contact input[type=button]{border:none;background-color:#599d75}#contact textarea{margin-top:9pt;width:100%;height:75pt}#footer{padding-top:30px;height:5pc;text-align:center}
+body,a,ul,li,div,img{
+    padding: 0;
+    margin: 0;
+}
+h2,h1{
+    font-weight: bold;
+}
+.navbar-default{
+    box-shadow: 0 2px 1px #666666;
+}
+.navbar-default .navbar-brand{
+    font-weight: bold;
+    height: 70px;
+    line-height: 35px;
+    font-size: 26px;
+    color: #2aabd2;
+}
+.navbar-default .navbar-nav  li a{
+    font-size: 16px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 35px;
+}
+#bigimg{
+    text-align: center;
+    color: #ffffff;
+
+    background: url("../images/home-bg.jpg");
+    margin-top: 70px;
+}
+.lvjing{
+    padding:70px 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10,10,10,0.7);
+}
+#bigimg p{
+    font-size: 15px;
+    line-height: 30px;
+}
+#bigimg img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#bbs{
+    margin-top: 20px;
+    padding: 80px;
+}
+#bbs .row div{
+    text-align: center;
+}
+#bbs .row div a{
+    color: #0b0809;
+    text-decoration: none;
+}
+#bbs .row div a img{
+    margin-top: 10px;
+}
+#bbs .row div:hover{
+    background-color:rgba(60,50,65,0.1);
+}
+#html5,#bootstrap{
+    margin-top: 20px;
+    padding-top: 60px;
+}
+#html5{
+    background-color: #f8f8f8;
+}
+#html5 p,#bootstrap p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+#html5 p span,#bootstrap p span{
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #2aabd2;
+    width: 30px;
+    height: 30px;
+}
+#course{
+    padding-bottom: 50px;
+    background-color: #f8f8f8;
+    margin-top: 40px;
+    padding-top: 80px;
+    text-align: center;
+}
+.course{
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding-bottom: 30px;
+}
+.course a{
+    margin-top: 24px;
+}
+#app{
+    padding: 80px 0;
+}
+#app .container .row .col-md-6 p{
+     line-height: 30px;
+}
+#app .container .row .col-md-6 button{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#contact{
+    color: #ffffff;
+    background: url("../images/contact-bg.png");
+}
+#contact h1 span{
+    margin-right: 20px;
+}
+#contact .row p{
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+#contact .row address p{
+    /*line-height: 30px;*/
+}
+#contact .row address{
+}
+#contact input{
+    margin-top: 12px;
+    width: 100%;
+    height: 50px;
+}
+#contact input[type=button]{
+    border: none;
+    background-color: #599d75;
+}
+#contact textarea{
+    margin-top: 12px;
+    width: 100%;
+    height: 100px;
+}
+#footer{
+    padding-top: 30px;
+     height: 80px;
+    text-align: center;
+}
+#footer p{
+}
