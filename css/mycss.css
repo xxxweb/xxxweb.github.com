@@ -106,7 +106,7 @@ h2,h1{
 }
 #contact{
     color: #ffffff;
-    background: url("../images/contact-bg.png");
+    /*background: url("../images/contact-bg.png");*/
 }
 #contact h1 span{
     margin-right: 20px;
